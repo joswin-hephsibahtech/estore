@@ -38,12 +38,12 @@ export class HomeComponent implements OnInit, OnDestroy {
     this.getProducts();
   }
 
-  onSortChange(newSort: string): void {
-    this.sort = newSort;
+  onClassifyChange(newClassify: string): void {
+    this.sort = newClassify;
     this.getProducts();
   }
 
-  onShowCategory(newCategory: string): void {
+  onExhibitCategory(newCategory: string): void {
     this.category = newCategory;
     this.getProducts();
   }
